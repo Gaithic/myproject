@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="max-width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link href='http://fonts.googleapis.com/css?family=PT+Sans+Narrow' rel='stylesheet' type='text/css'>
+    <link  rel="stylesheet" href ="font/Oswald-VariableFont_wght.ttf">
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+    <title>HOTEL MANAGEMENT SYSTEM WITH HTML AND CSS</title>
+</head>
+<body  id="main">
+
+  
+    <header  >
+        <nav >
+            <a ><ion-icon name="planet-outline" ></ion-icon></a>
+            <a href="index.html">HOME</a>
+            <a href="gallery.html">GALLERY</a>
+            <a href="services.html">SERVICES</a>
+            <a href="contact.html">CONTACT</a>
+            <a href="about.html">ABOUT US</a>
+
+        </nav>
+    </header>
+
+    
+
+      <svg viewBox="0 0 960 300">
+        <symbol id="s-text">
+          <text text-anchor="middle" x="50%" y="80%"> Hotel  Management System </text>
+          <!-- <text text-anchor="middle" x="52%" y="80%"> Hotel Management System </text> -->
+          
+        </symbol>
+      
+        <g class = "g-ants">
+          <use xlink:href="#s-text" class="text-copy"></use>
+          <use xlink:href="#s-text" class="text-copy"></use>
+          <use xlink:href="#s-text" class="text-copy"></use>
+          <use xlink:href="#s-text" class="text-copy"></use>
+          <use xlink:href="#s-text" class="text-copy"></use>
+        </g>
+      </svg>
+
+      <div>
+        <h3 style="font-size: 50px; color: white; margin-left: 33rem;">Book Your Room</h3>
+        <div   id="submitform">
+            <form action="#">
+                <div id="name">
+                  <label for="fullname" style="margin-left:10px; padding-bottom: 10px; ">Your Name</label>
+                  <input type="text" id="fullname" class="form-control" >
+                </div>
+                <div id="destination">
+                  <label for="destination">Destination</label>
+											<select name="#" id="destination">
+												<option value="">Philippines</option>
+												<option value="">USA</option>
+												<option value="">Australia</option>
+												<option value="">Singapore</option>
+											</select>
+                </div>
+
+                <div>
+                  <div>
+                    <label for="date-start">Date Travel</label>
+                    <input type="datetime-local" id="date-start" class="form-control">
+                  </div>
+                </div>
+
+                <div >
+                  <div >
+                    <input id ="button" type="submit" class="btn btn-primary btn-block" value="Submit" >
+                  </div>
+                </div>
+
+                
+                
+
+
+            </form>	
+        </div>
+
+        
+      </div>
+
+  
+<footer>
+    <h4  style="margin-bottom: 10px;">Copyright@Rohit Gautam</h4>
+</footer>
+  
+
+
+</body>
+</html>

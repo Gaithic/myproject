@@ -1,0 +1,386 @@
+*{
+    object-fit: contain;
+}
+body{
+  align-items: center;
+  font-size: 10px;
+  width: 100%;
+  height: 100vh;
+  overflow-x: hidden;
+  
+  
+}
+#main{
+    font-size: 10px;
+     background-image: url("images/slider1.jpg");
+    background-size: cover;
+    /* height: 100vh; */
+    /* overflow: hidden; */
+    background-repeat: no-repeat;
+    font-family: "Oswald ExtraLight";
+    
+}
+
+
+ header{
+    background-color: transparent;
+  
+    
+    
+ }
+ nav{
+    margin: 0;
+    padding: 1rem 3rem;
+    justify-content: space-around;
+
+ }
+ a{
+    text-decoration: none;
+    list-style: none;
+    background-color: transparent;
+    color: brown;
+    padding: 1rem 0 1rem 0;
+    font-weight: 900;
+    font-size: 1.5rem;
+    margin: 0 3rem;
+    width: 3.5rem;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+    padding: 5px 5px 5px 5px;
+    
+}
+a:hover{
+    
+    background-color: white;
+}
+
+h1{
+    font-size: 3rem;
+    font-weight: 900;
+    margin-top: 1rem;
+    margin-left: 15rem;
+    
+}
+
+@import url(https://fonts.googleapis.com/css?family=Montserrat);
+
+
+
+body{
+  /* background: yellow; */
+  font-family: Arial;
+}
+
+svg {
+    display: block;
+    font: 8.5em 'Montserrat';
+    font-weight:900;
+    width: 1260px;
+    height: 400px;
+    margin: 0 auto;
+}
+
+.text-copy {
+    fill: none;
+    stroke: white;
+    stroke-dasharray: 6% 29%;
+    stroke-width: 5px;
+    stroke-dashoffset: 0%;
+    animation: stroke-offset 5.5s infinite linear;
+}
+
+.text-copy:nth-child(1){
+  stroke: #4D163D;
+  animation-delay: -1;
+}
+
+.text-copy:nth-child(2){
+  stroke: #840037;
+  animation-delay: -2s;
+}
+
+.text-copy:nth-child(3){
+  stroke: #BD0034;
+  animation-delay: -3s;
+}
+
+.text-copy:nth-child(4){
+  stroke: #BD0034;
+  animation-delay: -4s;
+}
+
+.text-copy:nth-child(5){
+  stroke: white;
+  animation-delay: -5s;
+}
+
+@keyframes stroke-offset{
+  100% {stroke-dashoffset: -35%;}
+}
+
+
+
+
+#about{
+  background-image: linear-gradient();
+  overflow: hidden;
+  font-family: "Oswald ExtraLight";
+  background-color: #85FFBD;
+background-image: linear-gradient(45deg, #85FFBD 0%, #FFFB7D 100%);
+
+
+}
+
+
+#abouh h1{
+  margin-left: 40rem;
+  color: brown;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+}
+#cards{
+  display: flex;
+  justify-content: center;
+
+}
+#card1{
+  color: #222;
+  width: 25rem;
+  height: 30rem;
+  background-color: #FBAB7E;
+  background-image: linear-gradient(62deg, #FBAB7E 0%, #F7CE68 100%);
+  font-weight: 900;
+  padding: 20px;
+  
+  
+}
+
+#card1 h2{
+  font-size: 35px;
+  font-weight: 900;
+  margin-left:50px;
+}
+
+#card2{
+  color: #222;
+  width: 25rem;
+  margin-left: 30px;
+  height: 30rem;
+  background-color: #FBAB7E;
+  background-image: linear-gradient(62deg, #FBAB7E 0%, #F7CE68 100%);
+  font-weight: 900;
+  padding: 20px;
+}
+#card2 h2{
+  font-size: 35px;
+  font-weight: 900;
+margin-left:50px;
+}
+
+#card3{
+   color: #222;
+   width: 25rem;
+   margin-left: 30px;
+   height: 30rem;
+   background-color: #FBAB7E;
+   background-image: linear-gradient(62deg, #FBAB7E 0%, #F7CE68 100%);
+   font-weight: 900;
+   padding: 20px;
+}
+
+#card3 h2{
+  font-size: 35px;
+  font-weight: 900;
+  margin-left:50px;
+}
+
+#submitform{
+  /* background-color: brown; */
+  justify-content: center;
+  font-size: 40px;
+  font-weight: 900;
+  font-family: "Oswald ExtraLight";
+  color:white;
+  padding: 10px;
+  border: 2px solid black;
+  width: 90%;
+  margin-left: 50px;
+}
+
+form{
+  display: flex;
+  justify-content: center;
+  font-size: 30px;
+  font-weight: 900;
+  margin: 10px 10px 10px 10px;
+}
+
+
+input{
+  border-top-left-radius: 20px;
+  border-bottom-left-radius: 20px;
+  border-top-right-radius: 20px;
+  border-bottom-right-radius: 20px;
+  margin-left: 20px;
+  height: 20px;
+  border: 2px solid black;
+}
+select{
+  border: 2px solid black;
+  border-top-left-radius: 20px;
+  border-bottom-left-radius: 20px;
+  border-top-right-radius: 20px;
+  border-bottom-right-radius: 20px;
+  margin-left: 20px;
+  height: 30px;
+  font-weight: 900;
+}
+form label{
+  margin-left: 20px;
+}
+
+#button{
+  background-color: transparent; width: 100px; height: 40px; color: white; font-weight: 900; font-size: 20px;
+}
+
+#button:hover{
+  background-color: brown;
+  color: black;
+}
+
+
+#contact{
+  padding: 20px;
+  background-color: #8EC5FC;
+  background-image: linear-gradient(62deg, #8EC5FC 0%, #E0C3FC 100%);
+}  
+
+#contactus{
+  display: flex;
+  justify-content: center;
+  color: brown;
+  /* height: 300px;  */
+  font-size: 25px;
+  font-weight: 900;
+  color: brown;
+  /* width:  350px; */
+  
+}
+#info{
+  display: flex;
+  justify-content: center;
+  font-size: 20px;
+  font-weight: 900;
+  color: brown;
+  height: 200px;
+}
+
+#contactform{
+  display: flex;
+  justify-content: center;
+  font-size: 20px;
+  margin: 10px 10px 10px 10px;
+  font-family: "Oswald ExtraLight"; 
+}
+
+#contactform #phone{
+  background-color: #85FFBD;
+  background-image: linear-gradient(45deg, #85FFBD 0%, #FFFB7D 100%);
+  width:  350px;
+  padding: 10px;
+  color: #840037;
+  
+  
+
+}
+#contactform #email{
+  background-color: #85FFBD;
+  background-image: linear-gradient(45deg, #85FFBD 0%, #FFFB7D 100%);
+  width:  350px;
+  padding: 10px;
+  margin-left: 30px;
+  color: #840037;
+
+}
+
+#contactform #address{
+  background-color: #85FFBD;
+  background-image: linear-gradient(45deg, #85FFBD 0%, #FFFB7D 100%);
+  width:  350px;
+  padding: 10px;
+  margin-left: 30px;
+  color: #840037;
+
+}
+
+#contactform #address:hover{
+  background: #222;
+  color: white;
+}
+
+#contactform #email:hover{
+  background: #FFFB7D;
+  color: #222;
+}
+
+#contactform #phone:hover{
+  background: #222;
+  color: #85FFBD;
+}
+
+#gheading{
+  display: flex;
+  justify-content: center;
+  /* background-color: #85FFBD; */
+
+}
+#gheading h1{
+  color:whitesmoke;
+  margin-right: 250px;
+
+}
+
+span{
+  color: brown;
+}
+
+#gallery{
+  border: 4px solid aliceblue;
+  display: flex;
+  flex-direction:row ;
+  padding: 10px;
+  width: 90%;
+  height: 78%;
+  margin-left: 50px;
+ 
+}
+
+img{
+
+height: 280px;
+width: 280px;
+padding: 10px;
+
+
+}
+footer{
+  display: flex;
+  justify-content: center;
+  float: left;
+ background-color: #222;
+ border: 2px solid brown;
+ width: 97%;
+ margin-top: 25px;
+ height: 60px;
+ padding: 10px;
+ font-size: 25px;
+ color: aliceblue;
+ /* padding: 10px; */
+ padding-bottom: 20px;
+ margin-bottom: 10px;
+}
+footer h4{
+  margin-bottom: 20px;
+}
